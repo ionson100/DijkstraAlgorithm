@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<graph>
+  <node id="1">
+    <link ref="2" weight="4" />
+    <link ref="3" weight="5" />
+    <link ref="4" weight="6" />
+    <link ref="5" weight="7" />
+  </node>
+  <node id="2">
+    <link ref="1" weight="4" />
+    <link ref="6" weight="4" />
+  </node>
+  <node id="3">
+    <link ref="1" weight="5" />
+    <link ref="6" weight="5" />
+  </node>
+  <node id="4">
+    <link ref="1" weight="6" />
+    <link ref="6" weight="6" />
+  </node>
+  <node id="5">
+    <link ref="1" weight="7" />
+    <link ref="6" weight="7" />
+  </node>
+  <node id="6">
+    <link ref="2" weight="4" />
+    <link ref="3" weight="5" />
+    <link ref="4" weight="6" />
+    <link ref="5" weight="7" />
+    <link ref="7" weight="2" />
+    <link ref="8" weight="5" />
+    <link ref="9" weight="3" />
+  </node>
+  <node id="7">
+    <link ref="6" weight="6" />
+    <link ref="10" weight="7" />
+  </node>
+  <node id="8">
+    <link ref="6" weight="5" />
+    <link ref="10" weight="8" />
+  </node>
+  <node id="9">
+    <link ref="6" weight="4" />
+    <link ref="10" weight="9" />
+  </node>
+
+  <node id="10">
+    <!--<link ref="7" weight="7" />-->
+    <link ref="8" weight="8" />
+    <link ref="9" weight="9" />
+  </node>
+
+
+</graph>
